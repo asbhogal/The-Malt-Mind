@@ -1,3 +1,5 @@
 <h1>License</h1>
 
-Under the copyright laws the author of this repository retains all rights to the source code and no one may reproduce, distribute, or create derivative works from it. Further information on this can be found here: https://choosealicense.com/no-permission/ 
+Under the copyright laws the author of this repository retains all rights to the source code unless explicitly specified elsewhere and no one may reproduce, distribute, or create derivative works from it. Further information on this can be found here: https://choosealicense.com/no-permission/ 
+
+Credit goes to Matheus Almeida for the fullPageScrollPureJS released under the MIT license, found here: https://github.com/amendoa/fullPageScrollPureJS/blob/master/LICENSE
