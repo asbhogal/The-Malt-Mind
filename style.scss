@@ -1,9 +1,14 @@
-@use 'typography';
 @use 'variables';
+@use 'typography';
 @use 'mixins';
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 body {
-    background: rgb(7, 7, 7);
+    background: var(--black);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +18,6 @@ body {
 
 .header-nav {
     display: flex;
-
 }
 
 h1 {
@@ -37,7 +41,25 @@ p {
     font-weight: 300;
 }
 
-ul {
-    display: flex;
-    color: rgb(255, 255, 255) !important;
-}
+.header-nav {
+    position: fixed;
+    top: 0;
+    margin: 20px 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+    ul {
+        display: flex;
+        color: rgb(142, 108, 108) !important;
+        list-style: none;
+    li {
+        transition: 1s ease;
+    }
+    }
+    a {
+        color: whitesmoke;
+        transition: 1s ease;
+    }
+    :hover {
+        color: white;
+        transition: 1s ease;
+    }
+}}
