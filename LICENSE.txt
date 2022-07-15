@@ -1,3 +1,3 @@
 <h1>License</h1>
 
-Under the copyright laws the author of this repostiroy retains all rights to the source code and no one may reproduce, distribute, or create derivative works from it. Further information on this can be found here: https://choosealicense.com/no-permission/ 
+Under the copyright laws the author of this repository retains all rights to the source code and no one may reproduce, distribute, or create derivative works from it. Further information on this can be found here: https://choosealicense.com/no-permission/ 

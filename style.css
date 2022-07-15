@@ -20,9 +20,15 @@
   src: url("Typography/RobotoCondensed-Light.woff") format("woff"), url("Typography/RobotoCondensed-Light.woff2") format("woff2");
 }
 body {
-  background: red;
+  background: rgb(7, 7, 7);
 }
 
 h1 {
-  color: red;
+  color: #7f581f;
+  font-family: "Cormorant SC", serif;
+}
+
+.header-nav {
+  display: inline;
+  color: whitesmoke !important;
 }/*# sourceMappingURL=style.css.map */

@@ -2,4 +2,4 @@
 
 Copyright of th
 
-This repository and its contents is protected under copyright laws.
+This repository and its contents is protected under copyright laws. Further details can be found in LICENSE.txt

@@ -3,10 +3,15 @@
 @use 'mixins';
 
 body {
-    background: red;
+    background: rgb(7, 7, 7);
 }
 
 h1 {
-    color: black;
-    font-family: $heading_fonts;
+    color: #7f581f;
+    font-family: 'Cormorant SC', serif;
+}
+
+.header-nav {
+    display: inline;
+    color: whitesmoke !important;
 }
