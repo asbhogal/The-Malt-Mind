@@ -1,0 +1,12 @@
+@use 'typography';
+@use 'variables';
+@use 'mixins';
+
+body {
+    background: red;
+}
+
+h1 {
+    color: black;
+    font-family: $heading_fonts;
+}

@@ -1,0 +1,28 @@
+/* CORMORANT SC - LATIN - 300 LIGHT */
+@font-face {
+  font-family: "Cormorant SC", serif;
+  font-style: light;
+  font-weight: 300;
+  src: url("Typography/CormorantSC-Light.woff") format("woff"), url("Typography/CormorantSC-Light.woff2") format("woff2");
+}
+/* CORMORANT SC - LATIN - 400 REGULAR */
+@font-face {
+  font-family: "Cormorant SC", serif;
+  font-style: regular;
+  font-weight: 400;
+  src: url("Typography/CormorantSC-Regular") format("woff"), url("Typography/CormorantSC-Regular") format("woff2");
+}
+/* ROBOTO CONDENSED - LATIN - 300 LIGHT */
+@font-face {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: light;
+  font-weight: 300;
+  src: url("Typography/RobotoCondensed-Light.woff") format("woff"), url("Typography/RobotoCondensed-Light.woff2") format("woff2");
+}
+body {
+  background: red;
+}
+
+h1 {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
