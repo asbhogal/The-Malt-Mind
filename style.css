@@ -44,6 +44,10 @@
   display: flex;
   width: max-content;
   align-items: center;
+  text-align: center;
+}
+* .section-1 {
+  background: red;
 }
 * .header-nav {
   display: flex;
