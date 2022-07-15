@@ -1,7 +1,3 @@
-:root {
-  --black: #1e1e1e;
-}
-
 /* CORMORANT SC - LATIN - 300 LIGHT */
 @font-face {
   font-family: "Cormorant SC", serif;
@@ -23,6 +19,12 @@
   font-weight: 300;
   src: url("Typography/RobotoCondensed-Light.woff") format("woff"), url("Typography/RobotoCondensed-Light.woff2") format("woff2");
 }
+:root {
+  --dark-grey: #1e1e1e;
+  --black: #000;
+  --beige: #cb973c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +38,21 @@
   margin: 0;
   padding: 0;
 }
+* .button {
+  --offset: 10px;
+  --border-size: 2px;
+  display: block;
+  position: relative;
+  padding: 2px 4px;
+  appearance: none;
+  border: 0;
+  background: transparent;
+  color: var(--beige);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  outline: none;
+  cursor: point;
+}
 * .section-1,
 * .section-2,
 * .section-3,
@@ -47,7 +64,7 @@
   text-align: center;
 }
 * .section-1 {
-  background: red;
+  background: var(--black);
 }
 * .header-nav {
   display: flex;
@@ -80,7 +97,7 @@
   color: rgb(142, 108, 108) !important;
   list-style: none;
 }
-* .header-nav ul li {
+* .header-nav li {
   transition: 1s ease;
 }
 * .header-nav a {
@@ -90,4 +107,18 @@
 * .header-nav :hover {
   color: white;
   transition: 1s ease;
+}
+
+#scroll-to-top {
+  display: inline-block;
+  position: fixed;
+  cursor: pointer;
+  bottom: 30px;
+  right: 30px;
+  background: none;
+  border: none;
+  font-size: 36px;
+}
+#scroll-to-top :hover {
+  color: red;
 }/*# sourceMappingURL=style.css.map */
