@@ -62,6 +62,7 @@
   align-items: center;
   justify-content: center;
   padding: 0 40px;
+  background: rgba(0, 0, 0, 0.899);
 }
 * .section-1 {
   background: var(--black);
@@ -109,16 +110,16 @@
   transition: 1s ease;
 }
 
-#scroll-to-top {
-  display: inline-block;
-  position: fixed;
-  cursor: pointer;
-  bottom: 30px;
-  right: 30px;
-  background: none;
-  border: none;
-  font-size: 36px;
-}
-#scroll-to-top :hover {
-  color: red;
-}/*# sourceMappingURL=style.css.map */
+/*#scroll-to-top {
+    display: inline-block;
+    position: fixed;
+    cursor: pointer;
+    bottom: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+    font-size: 36px;
+    :hover {
+        color: red;
+    }
+}*//*# sourceMappingURL=style.css.map */

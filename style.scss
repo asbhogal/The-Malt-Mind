@@ -1,6 +1,6 @@
-@forward 'variables';
-@use 'typography';
-@use 'mixins';
+@import 'variables';
+@import 'typography';
+@import 'mixins';
 
 :root {
     --dark-grey: #1e1e1e;
@@ -14,11 +14,7 @@
     box-sizing: border-box;
 
 body {
-    background: var(--black);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1200px
+    @include body-template;
 }
 
 .button {
@@ -72,11 +68,7 @@ h1 {
 }
 
 p {
-    text-align: center;
-    color: whitesmoke;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-style: light;
-    font-weight: 300;
+    @include paragraph-styling;
 }
 
 .header-nav {
