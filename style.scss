@@ -17,7 +17,30 @@ body {
     @include body-template;
 }
 
+.scroll-to-top-btn {
+    position: fixed;
+    top: 50px;
+}
 
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background: linear-gradient(rgb(0, 0, 0),#6b5a5a26);
+    font-family: 'Roboto Condensed', sans-serif;
+    z-index: 9999;
+    .menu li {
+        display: inline-block !important;
+    }
+    a {
+        color: #fff;
+        transition: 1s ease;
+    }
+        :hover {
+            color: red;
+            transition: 1s ease;
+        }
+}
 
 .membership-benefits {
     column-count: 3;
