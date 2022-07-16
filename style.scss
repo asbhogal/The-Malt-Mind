@@ -1,4 +1,4 @@
-@use 'variables';
+@forward 'variables';
 @use 'typography';
 @use 'mixins';
 
@@ -18,8 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
-    padding: 0;
+    width: 1200px
 }
 
 .button {
@@ -46,7 +45,9 @@ body {
     display: flex;
     width: max-content;
     align-items: center;
-    text-align: center;
+    justify-content: center;
+    padding: 0 40px;
+    background: $background-color;
 }
 
 .section-1 {
@@ -101,7 +102,7 @@ p {
     }
 }}
 
-#scroll-to-top {
+/*#scroll-to-top {
     display: inline-block;
     position: fixed;
     cursor: pointer;
@@ -113,4 +114,4 @@ p {
     :hover {
         color: red;
     }
-}
+}*/
