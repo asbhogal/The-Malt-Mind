@@ -25,12 +25,15 @@ body {
 .navbar {
     position: fixed;
     top: 0px;
+    padding: 20px;
+    text-align: right;
     width: 100%;
     background: linear-gradient(rgb(0, 0, 0),#6b5a5a26);
     font-family: 'Roboto Condensed', sans-serif;
     z-index: 9999;
     .menu li {
         display: inline-block !important;
+        padding: 0 20px;
     }
     a {
         color: #fff;
@@ -43,13 +46,18 @@ body {
 }
 
 .membership-benefits {
+    position: absolute;
     column-count: 3;
     column-gap: 20px;
+    padding: 90px 0;
+    column-rule: 1px solid whitesmoke;
 }
 
-button {
+.cta-button {
     @include cta-button-styling;
     background: red;
+    position: absolute;
+    top: 460px
 }
 
 .section-1,
@@ -69,17 +77,12 @@ button {
     background: var(--black);
 }
 
-.header-nav {
-    display: flex;
+h1 {
+    @include h1-typography;
 }
 
-h1 {
-    font-family: 'Cormorant SC', serif;
-    font-style: regular;
-    font-weight: 400;
-    text-align: center;
-    color: #7f581f;
-
+h2 {
+    @include h2-typography;
 }
 
 .header-title {
