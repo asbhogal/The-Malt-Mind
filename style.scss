@@ -17,20 +17,16 @@ body {
     @include body-template;
 }
 
-.button {
-    --offset: 10px;
-    --border-size: 2px;
-    display: block;
-    position: relative;
-    padding: 2px 4px;
-    appearance: none;
-    border: 0;
-    background: transparent;
-    color: var(--beige);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    outline: none;
-    cursor: point;
+
+
+.membership-benefits {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+button {
+    @include cta-button-styling;
+    background: red;
 }
 
 .section-1,
