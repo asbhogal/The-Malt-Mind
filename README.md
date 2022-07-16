@@ -1,4 +1,4 @@
-<h1></h1>
+<h1>README</h1>
 
 Website for a fictional mockup subscription service called 'The Malt Mind', which specialises in offering bespoke whisky packages.
 
